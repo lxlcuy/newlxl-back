@@ -2,3 +2,56 @@
     text-align: center;
     font-size: 12px;
 }
+
+/* .iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-left: 20px;
+    margin-right: 8px;
+} */
+.ifm {
+    width: 100%;
+    height: 100%;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+a {
+    transition: none !important;
+}
+
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    user-select: none;
+
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #aaa;
+}
+
+.layui-nav-img {
+    width: 35px;
+    height: 35px;
+}
+
+.text-avatar {
+    display: inline-block;
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: seagreen;
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 10px;
+}
