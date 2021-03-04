@@ -23,8 +23,7 @@ $.ajaxPrefilter(function (options) {
             location.href = '/login.html'
             // location.href = '/login.html'
         }
-        console.log(res, '123434');
-        console.log(res.responseJSON);
+
     }
 
 })

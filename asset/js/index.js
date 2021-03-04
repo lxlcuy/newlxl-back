@@ -29,22 +29,7 @@ function getUserInfo() {
             //调用renderAvatar 渲染用户头像
             renderAvatar(res.data)
         },
-        // 无论成功与否都会执行这个函数
-        complete: function (res) {
-            // 在这个函数中，会使用res.responseJION拿到响应回来的数据
-            // console.log(res.responseJSON.status)
 
-            if (res.responseJSON.status === 1) {
-
-                // 1.强制清空token
-                localStorage.removeItem('token')
-                // 并且强制跳转登录页面
-                location.href = '/login.html'
-                // location.href = '/login.html'
-            }
-            console.log(res, '123434');
-            console.log(res.responseJSON);
-        }
     })
 }
 function renderAvatar(user = {}) {
